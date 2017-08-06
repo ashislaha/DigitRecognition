@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805659541F36FD7700980222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659531F36FD7700980222 /* AppDelegate.swift */; };
+		805659561F36FD7700980222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659551F36FD7700980222 /* ViewController.swift */; };
+		805659591F36FD7700980222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805659571F36FD7700980222 /* Main.storyboard */; };
+		8056595C1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8056595A1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld */; };
+		8056595E1F36FD7700980222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8056595D1F36FD7700980222 /* Assets.xcassets */; };
+		805659611F36FD7700980222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8056595F1F36FD7700980222 /* LaunchScreen.storyboard */; };
+		8056596C1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8056596B1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift */; };
+		805659771F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659761F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805659681F36FD7700980222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805659481F36FD7600980222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8056594F1F36FD7700980222;
+			remoteInfo = HandWrittenDigitRecognition;
+		};
+		805659731F36FD7700980222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805659481F36FD7600980222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8056594F1F36FD7700980222;
+			remoteInfo = HandWrittenDigitRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805659501F36FD7700980222 /* HandWrittenDigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandWrittenDigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805659531F36FD7700980222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805659551F36FD7700980222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		805659581F36FD7700980222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8056595B1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandWrittenDigitRecognition.xcdatamodel; sourceTree = "<group>"; };
+		8056595D1F36FD7700980222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805659601F36FD7700980222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805659621F36FD7700980222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805659671F36FD7700980222 /* HandWrittenDigitRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWrittenDigitRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8056596B1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWrittenDigitRecognitionTests.swift; sourceTree = "<group>"; };
+		8056596D1F36FD7700980222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805659721F36FD7700980222 /* HandWrittenDigitRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWrittenDigitRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805659761F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWrittenDigitRecognitionUITests.swift; sourceTree = "<group>"; };
+		805659781F36FD7700980222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8056594D1F36FD7700980222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805659641F36FD7700980222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8056596F1F36FD7700980222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805659471F36FD7600980222 = {
+			isa = PBXGroup;
+			children = (
+				805659521F36FD7700980222 /* HandWrittenDigitRecognition */,
+				8056596A1F36FD7700980222 /* HandWrittenDigitRecognitionTests */,
+				805659751F36FD7700980222 /* HandWrittenDigitRecognitionUITests */,
+				805659511F36FD7700980222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805659511F36FD7700980222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805659501F36FD7700980222 /* HandWrittenDigitRecognition.app */,
+				805659671F36FD7700980222 /* HandWrittenDigitRecognitionTests.xctest */,
+				805659721F36FD7700980222 /* HandWrittenDigitRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805659521F36FD7700980222 /* HandWrittenDigitRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				805659531F36FD7700980222 /* AppDelegate.swift */,
+				805659551F36FD7700980222 /* ViewController.swift */,
+				805659571F36FD7700980222 /* Main.storyboard */,
+				8056595D1F36FD7700980222 /* Assets.xcassets */,
+				8056595F1F36FD7700980222 /* LaunchScreen.storyboard */,
+				805659621F36FD7700980222 /* Info.plist */,
+				8056595A1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld */,
+			);
+			path = HandWrittenDigitRecognition;
+			sourceTree = "<group>";
+		};
+		8056596A1F36FD7700980222 /* HandWrittenDigitRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8056596B1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift */,
+				8056596D1F36FD7700980222 /* Info.plist */,
+			);
+			path = HandWrittenDigitRecognitionTests;
+			sourceTree = "<group>";
+		};
+		805659751F36FD7700980222 /* HandWrittenDigitRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805659761F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift */,
+				805659781F36FD7700980222 /* Info.plist */,
+			);
+			path = HandWrittenDigitRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8056594F1F36FD7700980222 /* HandWrittenDigitRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8056597B1F36FD7700980222 /* Build configuration list for PBXNativeTarget "HandWrittenDigitRecognition" */;
+			buildPhases = (
+				8056594C1F36FD7700980222 /* Sources */,
+				8056594D1F36FD7700980222 /* Frameworks */,
+				8056594E1F36FD7700980222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandWrittenDigitRecognition;
+			productName = HandWrittenDigitRecognition;
+			productReference = 805659501F36FD7700980222 /* HandWrittenDigitRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805659661F36FD7700980222 /* HandWrittenDigitRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8056597E1F36FD7700980222 /* Build configuration list for PBXNativeTarget "HandWrittenDigitRecognitionTests" */;
+			buildPhases = (
+				805659631F36FD7700980222 /* Sources */,
+				805659641F36FD7700980222 /* Frameworks */,
+				805659651F36FD7700980222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805659691F36FD7700980222 /* PBXTargetDependency */,
+			);
+			name = HandWrittenDigitRecognitionTests;
+			productName = HandWrittenDigitRecognitionTests;
+			productReference = 805659671F36FD7700980222 /* HandWrittenDigitRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805659711F36FD7700980222 /* HandWrittenDigitRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805659811F36FD7700980222 /* Build configuration list for PBXNativeTarget "HandWrittenDigitRecognitionUITests" */;
+			buildPhases = (
+				8056596E1F36FD7700980222 /* Sources */,
+				8056596F1F36FD7700980222 /* Frameworks */,
+				805659701F36FD7700980222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805659741F36FD7700980222 /* PBXTargetDependency */,
+			);
+			name = HandWrittenDigitRecognitionUITests;
+			productName = HandWrittenDigitRecognitionUITests;
+			productReference = 805659721F36FD7700980222 /* HandWrittenDigitRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805659481F36FD7600980222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ashis Laha";
+				TargetAttributes = {
+					8056594F1F36FD7700980222 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					805659661F36FD7700980222 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8056594F1F36FD7700980222;
+					};
+					805659711F36FD7700980222 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8056594F1F36FD7700980222;
+					};
+				};
+			};
+			buildConfigurationList = 8056594B1F36FD7600980222 /* Build configuration list for PBXProject "HandWrittenDigitRecognition" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805659471F36FD7600980222;
+			productRefGroup = 805659511F36FD7700980222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8056594F1F36FD7700980222 /* HandWrittenDigitRecognition */,
+				805659661F36FD7700980222 /* HandWrittenDigitRecognitionTests */,
+				805659711F36FD7700980222 /* HandWrittenDigitRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8056594E1F36FD7700980222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805659611F36FD7700980222 /* LaunchScreen.storyboard in Resources */,
+				8056595E1F36FD7700980222 /* Assets.xcassets in Resources */,
+				805659591F36FD7700980222 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805659651F36FD7700980222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805659701F36FD7700980222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8056594C1F36FD7700980222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805659561F36FD7700980222 /* ViewController.swift in Sources */,
+				8056595C1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld in Sources */,
+				805659541F36FD7700980222 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805659631F36FD7700980222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8056596C1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8056596E1F36FD7700980222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805659771F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805659691F36FD7700980222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8056594F1F36FD7700980222 /* HandWrittenDigitRecognition */;
+			targetProxy = 805659681F36FD7700980222 /* PBXContainerItemProxy */;
+		};
+		805659741F36FD7700980222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8056594F1F36FD7700980222 /* HandWrittenDigitRecognition */;
+			targetProxy = 805659731F36FD7700980222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805659571F36FD7700980222 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805659581F36FD7700980222 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8056595F1F36FD7700980222 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805659601F36FD7700980222 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805659791F36FD7700980222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8056597A1F36FD7700980222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8056597C1F36FD7700980222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = HandWrittenDigitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8056597D1F36FD7700980222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = HandWrittenDigitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8056597F1F36FD7700980222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = HandWrittenDigitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandWrittenDigitRecognition.app/HandWrittenDigitRecognition";
+			};
+			name = Debug;
+		};
+		805659801F36FD7700980222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = HandWrittenDigitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandWrittenDigitRecognition.app/HandWrittenDigitRecognition";
+			};
+			name = Release;
+		};
+		805659821F36FD7700980222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = HandWrittenDigitRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandWrittenDigitRecognition;
+			};
+			name = Debug;
+		};
+		805659831F36FD7700980222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 87F557PJ6U;
+				INFOPLIST_FILE = HandWrittenDigitRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandWrittenDigitRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8056594B1F36FD7600980222 /* Build configuration list for PBXProject "HandWrittenDigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805659791F36FD7700980222 /* Debug */,
+				8056597A1F36FD7700980222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8056597B1F36FD7700980222 /* Build configuration list for PBXNativeTarget "HandWrittenDigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8056597C1F36FD7700980222 /* Debug */,
+				8056597D1F36FD7700980222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8056597E1F36FD7700980222 /* Build configuration list for PBXNativeTarget "HandWrittenDigitRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8056597F1F36FD7700980222 /* Debug */,
+				805659801F36FD7700980222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805659811F36FD7700980222 /* Build configuration list for PBXNativeTarget "HandWrittenDigitRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805659821F36FD7700980222 /* Debug */,
+				805659831F36FD7700980222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8056595A1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8056595B1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodel */,
+			);
+			currentVersion = 8056595B1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodel */;
+			path = HandWrittenDigitRecognition.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 805659481F36FD7600980222 /* Project object */;
+}
