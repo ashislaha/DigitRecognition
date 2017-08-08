@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="At3-6m-k2U">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Base View Controller-->
+        <scene sceneID="G2Y-jj-yfn">
+            <objects>
+                <viewController id="At3-6m-k2U" customClass="BaseViewController" customModule="HandWrittenDigitRecognition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CBd-KF-Y6e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TVS-Ss-WOK">
+                                <rect key="frame" x="87" y="20" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Jdx-52-VgA"/>
+                                    <constraint firstAttribute="width" constant="200" id="fAV-5g-orC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oar-6U-5V7">
+                                <rect key="frame" x="164" y="228" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="At3-6m-k2U" eventType="touchUpInside" id="Mvn-we-fFK"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juH-ip-iTR">
+                                <rect key="frame" x="166" y="280" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TVS-Ss-WOK" firstAttribute="centerX" secondItem="jgE-bU-g10" secondAttribute="centerX" id="1rB-bn-eM4"/>
+                            <constraint firstItem="juH-ip-iTR" firstAttribute="centerX" secondItem="jgE-bU-g10" secondAttribute="centerX" id="7CV-ep-DXm"/>
+                            <constraint firstItem="Oar-6U-5V7" firstAttribute="centerX" secondItem="jgE-bU-g10" secondAttribute="centerX" id="ODY-wP-mJg"/>
+                            <constraint firstItem="juH-ip-iTR" firstAttribute="top" secondItem="Oar-6U-5V7" secondAttribute="bottom" constant="22" id="Vxm-3D-em0"/>
+                            <constraint firstItem="Oar-6U-5V7" firstAttribute="top" secondItem="TVS-Ss-WOK" secondAttribute="bottom" constant="8" id="eb9-vM-IOB"/>
+                            <constraint firstItem="TVS-Ss-WOK" firstAttribute="top" secondItem="jgE-bU-g10" secondAttribute="top" id="s3e-A8-KmK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jgE-bU-g10"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonOutlet" destination="Oar-6U-5V7" id="Toh-ar-fpQ"/>
+                        <outlet property="imageView" destination="TVS-Ss-WOK" id="rmQ-rg-43w"/>
+                        <outlet property="label" destination="juH-ip-iTR" id="k2r-jR-618"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JKc-UY-9Ni" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.5999999999999996" y="-90.404797601199405"/>
+        </scene>
+    </scenes>
+</document>

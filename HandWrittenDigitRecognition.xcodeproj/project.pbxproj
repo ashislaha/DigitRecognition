@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8033AB131F3722BB00535624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8033AB121F3722BB00535624 /* Main.storyboard */; };
+		8033AB151F37616C00535624 /* ImagePreProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033AB141F37616C00535624 /* ImagePreProcessing.swift */; };
 		805659541F36FD7700980222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659531F36FD7700980222 /* AppDelegate.swift */; };
-		805659561F36FD7700980222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659551F36FD7700980222 /* ViewController.swift */; };
-		805659591F36FD7700980222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805659571F36FD7700980222 /* Main.storyboard */; };
 		8056595C1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8056595A1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld */; };
 		8056595E1F36FD7700980222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8056595D1F36FD7700980222 /* Assets.xcassets */; };
 		805659611F36FD7700980222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8056595F1F36FD7700980222 /* LaunchScreen.storyboard */; };
 		8056596C1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8056596B1F36FD7700980222 /* HandWrittenDigitRecognitionTests.swift */; };
 		805659771F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659761F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift */; };
+		805659851F36FEC800980222 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805659841F36FEC800980222 /* BaseViewController.swift */; };
+		8056598C1F37011800980222 /* mnist_keras_CNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8056598B1F37011000980222 /* mnist_keras_CNN.mlmodel */; };
+		806820521F382DF200A0BC12 /* mnist_keras_DNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 806820511F382DE800A0BC12 /* mnist_keras_DNN.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8033AB121F3722BB00535624 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8033AB141F37616C00535624 /* ImagePreProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreProcessing.swift; sourceTree = "<group>"; };
 		805659501F36FD7700980222 /* HandWrittenDigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandWrittenDigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805659531F36FD7700980222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		805659551F36FD7700980222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		805659581F36FD7700980222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8056595B1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandWrittenDigitRecognition.xcdatamodel; sourceTree = "<group>"; };
 		8056595D1F36FD7700980222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805659601F36FD7700980222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		805659721F36FD7700980222 /* HandWrittenDigitRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandWrittenDigitRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805659761F36FD7700980222 /* HandWrittenDigitRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWrittenDigitRecognitionUITests.swift; sourceTree = "<group>"; };
 		805659781F36FD7700980222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805659841F36FEC800980222 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8056598B1F37011000980222 /* mnist_keras_CNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnist_keras_CNN.mlmodel; sourceTree = "<group>"; };
+		806820511F382DE800A0BC12 /* mnist_keras_DNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnist_keras_DNN.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				805659531F36FD7700980222 /* AppDelegate.swift */,
-				805659551F36FD7700980222 /* ViewController.swift */,
-				805659571F36FD7700980222 /* Main.storyboard */,
-				8056595D1F36FD7700980222 /* Assets.xcassets */,
-				8056595F1F36FD7700980222 /* LaunchScreen.storyboard */,
+				805659841F36FEC800980222 /* BaseViewController.swift */,
+				8056598E1F37016200980222 /* mlmodel */,
+				8056598D1F37015800980222 /* View */,
 				805659621F36FD7700980222 /* Info.plist */,
-				8056595A1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld */,
+				8056598F1F37019400980222 /* CoreData */,
 			);
 			path = HandWrittenDigitRecognition;
 			sourceTree = "<group>";
@@ -126,6 +131,34 @@
 				805659781F36FD7700980222 /* Info.plist */,
 			);
 			path = HandWrittenDigitRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		8056598D1F37015800980222 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8056595D1F36FD7700980222 /* Assets.xcassets */,
+				8056595F1F36FD7700980222 /* LaunchScreen.storyboard */,
+				8033AB121F3722BB00535624 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8056598E1F37016200980222 /* mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				8033AB141F37616C00535624 /* ImagePreProcessing.swift */,
+				8056598B1F37011000980222 /* mnist_keras_CNN.mlmodel */,
+				806820511F382DE800A0BC12 /* mnist_keras_DNN.mlmodel */,
+			);
+			path = mlmodel;
+			sourceTree = "<group>";
+		};
+		8056598F1F37019400980222 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8056595A1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8033AB131F3722BB00535624 /* Main.storyboard in Resources */,
 				805659611F36FD7700980222 /* LaunchScreen.storyboard in Resources */,
 				8056595E1F36FD7700980222 /* Assets.xcassets in Resources */,
-				805659591F36FD7700980222 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805659561F36FD7700980222 /* ViewController.swift in Sources */,
+				806820521F382DF200A0BC12 /* mnist_keras_DNN.mlmodel in Sources */,
+				8033AB151F37616C00535624 /* ImagePreProcessing.swift in Sources */,
+				805659851F36FEC800980222 /* BaseViewController.swift in Sources */,
+				8056598C1F37011800980222 /* mnist_keras_CNN.mlmodel in Sources */,
 				8056595C1F36FD7700980222 /* HandWrittenDigitRecognition.xcdatamodeld in Sources */,
 				805659541F36FD7700980222 /* AppDelegate.swift in Sources */,
 			);
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		805659571F36FD7700980222 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				805659581F36FD7700980222 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8056595F1F36FD7700980222 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,10 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 87F557PJ6U;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
 				INFOPLIST_FILE = HandWrittenDigitRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognition;
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognitionUsingML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,10 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 87F557PJ6U;
+				DEVELOPMENT_TEAM = W3Z9URG96M;
 				INFOPLIST_FILE = HandWrittenDigitRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognition;
+				PRODUCT_BUNDLE_IDENTIFIER = ALaha.HandWrittenDigitRecognitionUsingML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
